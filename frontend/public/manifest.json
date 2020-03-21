@@ -1,0 +1,10 @@
+{
+    "name": "LinkedIn Helper",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "content_security_policy": "script-src 'self' 'sha256-1kri9uKG6Gd9VbixGzyFE/kaQIHihYFdxFKKhgz3b80='; object-src 'self'"
+}
